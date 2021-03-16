@@ -23,6 +23,7 @@
     }
   },
   "rules": {
+    "@typescript-eslint/no-unused-vars": ["error"],
     "arrow-parens": ["error", "as-needed"],
     "eol-last": ["error", "always"],
     "indent": ["error", 2],
@@ -30,9 +31,11 @@
     "no-console": "error",
     "no-tabs": "error",
     "no-trailing-spaces": "error",
+    "no-unused-vars": "off",
     "prefer-const": ["error", {
       "destructuring": "all"
     }],
+    "prefer-destructuring": "error",
     "quotes": [
       2,
       "single",
