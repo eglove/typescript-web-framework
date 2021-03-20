@@ -3,7 +3,7 @@ import { Model } from '../models/Model';
 export abstract class View<T extends Model<K>, K> {
   regions: { [key: string]: HTMLElement } = {};
 
-  protected constructor(public parent: HTMLElement, public model: T) {
+  constructor(public parent: HTMLElement, public model: T) {
     this.bindModel();
   }
 
