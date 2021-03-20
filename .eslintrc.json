@@ -33,6 +33,7 @@
     "no-tabs": "error",
     "no-trailing-spaces": "error",
     "no-unused-vars": "off",
+    "object-shorthand": ["error", "always"],
     "prefer-const": ["error", {
       "destructuring": "all"
     }],
